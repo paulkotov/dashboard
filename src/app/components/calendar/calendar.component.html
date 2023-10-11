@@ -1,0 +1,88 @@
+<div class="calendar">
+    <h3 class="current-month">Apr</h3>
+    <table cellpadding="0" class="main__table">
+        <tbody>
+            <tr class="table-head">
+                <th *ngFor="let header of headers">{{header}}</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12
+                    <div class="rounds-block">
+                        <span class="round round-green">*</span>
+                        <span class="round round--pink">*</span>
+                        <span class="round round--violett">*</span>
+                        <span class="round round-briz">*</span>
+                        <span class="round round--yellow">*</span>
+                    </div>
+                    <section class="description">
+                        <ul class="description__list">
+                            <li class="description__item yellow">
+                                <time class="description__time">10.00-11.00</time>
+                                <h4 class="description__title">Product event</h4>
+                            </li>
+                            <li class="description__item red">
+                                <time class="description__time">10.00-11.00</time>
+                                <h4 class="description__title">Product event</h4>
+                            </li>
+                            <li class="description__item violett">
+                                <time class="description__time">10.00-11.00</time>
+                                <h4 class="description__title">Product event</h4>
+                            </li>
+                        </ul>
+                    </section>
+                </td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td class="next-mth">1</td>
+                <td class="next-mth">2</td>
+                <td class="next-mth">3</td>
+                <td class="next-mth">4</td>
+            </tr>
+            <tr>
+                <td class="next-mth">5</td>
+                <td class="next-mth">6</td>
+                <td class="next-mth">7</td>
+                <td class="next-mth">8</td>
+                <td class="next-mth">9</td>
+                <td class="next-mth">10</td>
+                <td class="next-mth">11</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

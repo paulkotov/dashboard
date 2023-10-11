@@ -1,0 +1,16 @@
+{
+  "status": 200,
+  "data": {
+    "user": {
+      "id": "01-12",
+      "name": "Vasya 111",
+      "email": "email@email.com",
+      "password": "111222",
+      "dateLastLogin": "28-12-2019 12:00",
+      "isActive": "true",
+      "isBot": "false",
+      "role": "player",
+      "avatarURL": ""
+    }
+  }
+}

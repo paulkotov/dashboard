@@ -1,0 +1,28 @@
+<div class="teams">
+  <div class="caption-panel">
+    <h1 class="page-header">Teams</h1>
+    <div class="add_button">
+      <button
+        mat-raised-button
+        color="secondary"
+        class="btn btn-sm btn-default"
+        (click)="addTeam()"
+        type="button"
+      >
+        Add team
+      </button>
+    </div>
+  </div>
+  <div class="head-table">
+    <p class="td-1">
+      <input class="form-control" name="username" #search placeholder="Search" [(ngModel)]="searchString"/>
+    </p>
+    <span>TEAM</span>
+    <span>STATUS</span>
+  </div>
+  <div class="table">
+    <div class="team-item" *ngFor="let team of teams;">
+      <app-team-panel [data]="team"></app-team-panel>
+    </div>
+  </div>
+</div>

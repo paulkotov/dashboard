@@ -1,0 +1,71 @@
+<div class="row">
+  <div class="col-sm-12">
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form class="form-horizontal">
+
+          <div class="form-group">
+            <div class="label">Title</div>
+            <input name="announcement" #title placeholder="Title" [(ngModel)]="newsItem.title"/>
+          </div>
+          <div class="form-group">
+            <div class="label">Link</div>
+            <input name="link" #linkid placeholder="Link" [(ngModel)]="newsItem.link"/>
+          </div>
+          <div class="form-group">
+            <div class="label">Description</div>
+            <textarea name="body" #body placeholder="Body" [(ngModel)]="newsItem.description"></textarea>
+          </div>
+
+          <div class="form-group form-inputs">
+            <div class="form-group">
+              <div class="label">Game</div>
+              <select name="game" #game class="form-control short" placeholder="Game" [value]="newsItem.hashtag" (change)="setHashTag($event)">
+                <option class="" [value]="tag" *ngFor="let tag of hashTags">{{tag}}</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <div class="label">Date</div>
+                <input name="date" #date type="date" class="form-control short" [(ngModel)]="newsItem.date"/>
+            </div>
+          </div>
+          <!-- TODO: move to separate file -->
+          <div class="form-group form-inputs">
+            <div *ngIf="selectedFile" class="img-preview-container">
+                <div class="img-preview{{selectedFile.status === 'fail' ? '-error' : ''}}"
+                  [ngStyle]="{'background-image': 'url('+ selectedFile.src + ')'}">
+                </div>
+         <!--
+                <div *ngIf="selectedFile.pending" class="img-loading-overlay">
+                  <div class="img-spinning-circle"></div>
+                </div> -->
+            </div>
+
+            <div class="form-group">
+              <label class="upload">
+                <span>Upload Image</span>
+                <input #imageInput
+                        class="image"
+                        type="file"
+                        accept="image/*"
+                        (change)="uploadImage(imageInput)">
+              </label>
+            </div>
+          </div>
+          <div class="form-group form-inputs">
+            <input name="show" #show class="form-control checkbox" type="checkbox" [checked]="showNews" (change)="setShowNews($event)"/>
+            <div class="label">Show news on the site</div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-offset-2 col-lg-10">
+              <button mat-raised-button color="primary" class="btn btn-sm btn-default" (click)="saveNewsItem()" type="button">Save</button>
+              <button mat-button color="accent" class="btn btn-sm btn-default" (click)="cancel()" type="button">Cancel</button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

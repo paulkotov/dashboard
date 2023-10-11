@@ -1,0 +1,32 @@
+<div class="teams">
+    <div class="caption-panel">
+      <h1 class="page-header">Events</h1>
+      <div class="add_button">
+        <button
+          mat-raised-button
+          color="secondary"
+          class="btn btn-sm btn-default"
+          (click)="addEvent()"
+          type="button"
+        >
+          Add event
+        </button>
+      </div>
+    </div>
+    <div class="head-table">
+      <p class="td-1">
+        <input class="form-control" name="username" #search placeholder="Search" [(ngModel)]="searchString"/>
+      </p>
+      <p class="td-2">TEAM 1</p>
+      <p class="td-2">TEAM 2</p>
+      <p class="td-3">GAME</p>
+      <p class="td-3">DATE START</p>
+      <p class="td-3">STATUS</p>
+    </div>
+    <div class="table">
+      <div class="event-item" *ngFor="let event of events;">
+        <app-event-panel [data]="event"></app-event-panel>
+      </div>
+    </div>
+</div>
+  

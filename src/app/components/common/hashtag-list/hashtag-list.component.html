@@ -1,0 +1,3 @@
+<mat-chip-list>
+    <mat-chip *ngFor="let hashtag of hashtags" (click)="selectHashtag(hashtag)" (selectedHashtag)="selectedHashtag()">{{hashtag}}</mat-chip>
+</mat-chip-list>

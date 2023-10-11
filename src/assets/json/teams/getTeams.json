@@ -1,0 +1,14 @@
+{
+  "status": 200,
+  "data": {
+    "teams": [{
+      "name": "string",
+      "logoURL": "/url/to/logo",
+      "status": "active"
+    },{
+      "name": "string",
+      "logoURL": "/url/to/logo",
+      "status": "active"
+    }]
+  }
+}

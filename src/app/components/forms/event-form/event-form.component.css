@@ -1,0 +1,47 @@
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    color: #FFF;
+    font-size: 16px;
+    
+}
+
+input, textarea, .form-control {
+    width: 500px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background: #29313c;
+    outline: none;
+    padding: 4px 8px;
+    color: #fff;
+    min-height: 40px;
+}
+
+.checkbox {
+    width: 20px;
+}
+
+.form-inputs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.short {
+    width: 240px;
+    margin-right: 25px;
+}
+
+textarea {
+    height: 160px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}

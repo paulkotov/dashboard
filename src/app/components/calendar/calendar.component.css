@@ -1,0 +1,57 @@
+.calendar {
+    width: 100%;
+    background: #1A2029;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 10px;
+}
+.current-month {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.main__table {
+    width: 100%;
+    text-align: right;
+}
+
+tr {
+    display: table-row;
+    border-color: inherit;
+}
+
+th {
+    padding: 10px;
+    color: #6D7278;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+td {
+    height: 68px;
+    border: 1px solid #12171D;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-right: 5px;
+    position: relative;
+    width: 90px;
+}
+
+div.date {
+    position: relative;
+    margin-right: 10px;
+}

@@ -1,0 +1,45 @@
+.caption-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.page-header {
+    color: #FFF;
+}
+
+.table {
+    background-color: #1A2029;
+    padding: 10px;
+}
+
+.head-table {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 23px;
+    margin: 0;
+    color: #6D7278;
+    background-color: #1A2029;
+}
+
+.form-control {
+    width: 240px;
+    border-radius: 3px;
+    border: 1px solid #1A2029;
+    background-color: #29313c;
+    outline: none;
+    padding: 4px 8px;
+    color: #fff;
+    min-height: 20px;
+}
+
+.event-item {
+    background-color:  #1A2029;
+    border-radius: 10px;
+}
+
+.add-button {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

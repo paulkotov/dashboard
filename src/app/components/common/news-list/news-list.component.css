@@ -1,0 +1,11 @@
+.card-deck-container {
+    width: 100%;
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+  
+.card-item {
+padding: 3px 3px 3px 3px;
+}

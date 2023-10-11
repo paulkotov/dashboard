@@ -1,0 +1,106 @@
+<div class="row">
+  <div class="col-sm-12">
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form class="form-horizontal">
+
+          <!-- <div class="form-group">
+            <div class="label">Title</div>
+            <input name="username" #title placeholder="Title" [(ngModel)]="event.title"/>
+          </div> -->
+          <div class="form-group">
+            <div class="label">Description</div>
+            <textarea name="body" #description placeholder="Description" [(ngModel)]="event.description"></textarea>
+          </div>
+
+          <div class="form-group form-inputs">
+            <div class="form-group">
+              <div class="label">Game</div>
+              <select name="game" #game class="form-control short" placeholder="Game" [value]="event.game" (change)="setEventGame($event)">
+                <option class="" [value]="game" *ngFor="let game of games">{{game}}</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <div class="label">Date start event</div>
+                <input name="date" #date type="date" class="form-control short" [(ngModel)]="event.date"/>
+            </div>
+          </div>
+
+          <div class="form-group form-inputs">
+            <div class="form-group">
+              <div class="label">Team 1</div>
+              <select name="game" #team1 class="form-control short" placeholder="Team 1" [value]="event.team1.name" (change)="setEventGame($event)">
+                <option class="" [value]="team" *ngFor="let team of teams">{{team}}</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <div class="label">Team 2</div>
+              <select name="game" #team2 class="form-control short" placeholder="Team 2" [value]="event.team2.name" (change)="setEventGame($event)">
+                <option class="" [value]="team" *ngFor="let team of teams">{{team}}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group form-inputs">
+              <div class="form-group">
+                <div class="label">Player 1</div>
+                <select name="game" #game class="form-control short" placeholder="Player 1" [value]="event.player1.name" (change)="setEventGame($event)">
+                  <option class="" [value]="player" *ngFor="let player of team1Players">{{player}}</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <div class="label">Player 2</div>
+                <select name="game" #game class="form-control short" placeholder="Player 2" [value]="event.player2.name" (change)="setEventGame($event)">
+                  <option class="" [value]="player" *ngFor="let player of team2Players">{{player}}</option>
+                </select>
+                </div>
+            </div>
+            <div class="form-group">
+              <div class="label">Stream link</div>
+              <input name="username" #title placeholder="Stream" [(ngModel)]="event.streamLink"/>
+            </div>
+            <div class="form-group form-inputs">
+              <div class="form-group">
+                <div class="label">Favorite 1</div>
+                <select name="game" #game class="form-control short" placeholder="Favorite" [value]="event.favorite" (change)="setFavorite($event)">
+                  <option class="" [value]="player" *ngFor="let player of players">{{player}}</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <div class="label">Probability of favorite</div>
+                <input name="prob" #prob class="form-control short" placeholder="Probability" [(ngModel)]="event.probabilityOfFavorite"/>
+                </div>
+              </div>
+              <div class="form-group form-inputs">
+                <div class="form-group">
+                    <div class="label">Date start betting</div>
+                    <input name="startDate" type="date" class="form-control short" [(ngModel)]="startDate"/>
+                </div>
+                <div class="form-group">
+                    <div class="label">Date finish betting</div>
+                    <input name="finishDate" type="date" class="form-control short" [(ngModel)]="finishDate"/>
+                </div>
+              </div>
+              <div class="form-group form-inputs">
+                <input name="automatic" #automatic class="form-control checkbox" type="checkbox" [(ngModel)]="event.automatic"/>
+                <div class="label">Automatically start event</div>
+              </div>
+              <div class="form-group form-inputs">
+                <input name="show" #show class="form-control checkbox" type="checkbox" [(ngModel)]="event.show"/>
+                <div class="label">Show event on the site</div>
+              </div>
+              <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                  <button mat-raised-button color="primary" class="btn btn-sm btn-default" (click)="saveEvent()" type="button">Save</button>
+                  <button mat-button color="primary" class="btn btn-sm btn-default button-cancel" (click)="cancel()" type="button">Cancel</button>
+                </div>
+              </div>
+
+
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

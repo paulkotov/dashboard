@@ -1,0 +1,21 @@
+mat-card {
+    width: 300px;
+    height: 150px;
+    padding: 0px;
+    display: block;
+    overflow: hidden;
+}
+mat-card-actions {
+    bottom: 10px;
+    position: absolute;
+    background-color: RGBA(0, 0, 0, 0.5);
+    opacity: 0.6;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+}
+
+img {
+    max-width:100%;
+    /* max-height:100%; */
+}

@@ -1,0 +1,16 @@
+<div class="row row--cont" [ngClass]="{'non-active': data.isActive ? true : false}" (click)="openForm()">
+    <div class="logo-name">
+        <img class="user-img" src="assets/img/man-photo.png" alt="Photo" />
+    </div>
+    <div class="td-1">
+        <span style="color: #fff;">
+            {{data.title}}
+        </span>
+    </div>
+    <div class="date-container">
+        <span class="table__date">{{getDate}}</span>
+    </div>
+    <div class="date-container">
+        <span class="table__date">{{data.tag}}</span>
+    </div>
+</div>

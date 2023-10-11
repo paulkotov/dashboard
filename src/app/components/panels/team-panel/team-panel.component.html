@@ -1,0 +1,12 @@
+<div class="row row--cont" [ngClass]="{'non-active': data.status === 'not active' ? true : false}" (click)="openForm()">
+    <div class="td-1 logo-name">
+        <img class="user-img" src="assets/img/man-photo.png" alt="Photo" />
+    </div>
+    <div class="date-container">
+        <span class="table__date">{{data.name}}</span>
+    </div>
+    <div class="date-container">
+        <span class="table__date">{{data.players}}</span>
+    </div>
+    <p class="td-3 status">{{data.status}}</p>
+</div>

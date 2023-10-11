@@ -1,0 +1,55 @@
+<div class="sidenav-main">
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav-content>
+      <mat-toolbar color="primary">
+        <div class="menu_container">
+          <span>
+            <a href="/">
+              <img class="logo" src="assets/img/logo1.png" alt="">
+            </a>
+          </span>
+        </div>
+        <mat-nav-list class="list-horizontal">
+          <mat-list-item class="mat-list-item">
+            <a class="item-text" href="/news">News</a>
+          </mat-list-item>
+          <mat-list-item class="mat-list-item">
+            <a class="item-text" href="/games">Games</a>
+          </mat-list-item>
+          <mat-list-item class="mat-list-item">
+            <a class="item-text" href="/events">Events</a>
+          </mat-list-item>
+          <mat-list-item class="mat-list-item">
+            <a class="item-text" href="/teams">Teams</a>
+          </mat-list-item>
+          <mat-list-item class="mat-list-item">
+            <a class="item-text" href="/players">Players</a>
+          </mat-list-item>
+          <mat-list-item class="mat-list-item">
+            <a class="item-text" href="/calendar">Calendar</a>
+          </mat-list-item>
+          <mat-list-item class="mat-list-item">
+            <a class="item-text" href="/users">Users</a>
+          </mat-list-item>
+          <mat-list-item class="mat-list-item">
+            <a class="item-text" href="/dashboard">Dashboard</a>
+          </mat-list-item>
+        </mat-nav-list>
+        <div>
+          <mat-form-field appearance="none">
+            <mat-select
+              style="height: auto;"
+              name="adminOprions"
+              [(ngModel)]="selectedOption"
+              (selectionChange)="selectMenu($event)"
+              >
+              <mat-option value="profile" style="font-size: 10px;">Profile</mat-option>
+              <mat-option value="logout" style="font-size: 10px;">Logout</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <span>Admin</span>
+        </div>
+      </mat-toolbar>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

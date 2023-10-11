@@ -1,0 +1,29 @@
+<div class="news">
+    <app-games-filter (changed)="changeGameFilter($event)"></app-games-filter>
+    <div class="">
+        <div class="head-table">
+            <p class="td-1">
+                <input class="form-control" name="username" #search placeholder="Search" [(ngModel)]="searchString"/>
+            </p>
+            <span>DATE</span>
+            <span>GAME</span>
+            <span>STATUS</span>
+        </div>
+        <div class="table">
+            <div class="news-item" *ngFor="let newsItem of news;" >
+                <app-news-panel [data]="newsItem"></app-news-panel>
+            </div>
+        </div>
+        <div class="add_button">
+            <button
+                mat-raised-button
+                color="secondary"
+                class="btn btn-sm btn-default"
+                (click)="addNews()"
+                type="button"
+            >
+                Add
+            </button>
+        </div>
+    </div>
+</div>

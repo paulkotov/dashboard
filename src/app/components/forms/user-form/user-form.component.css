@@ -1,0 +1,38 @@
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    color: #FFF;
+    font-size: 16px;
+}
+
+input, .form-control {
+    width: 500px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background: #29313c;
+    outline: none;
+    padding: 4px 8px;
+    color: #fff;
+    min-height: 40px;
+}
+
+.button-cancel {
+    color: #FFF;
+}
+
+.checkbox {
+    width: 20px;
+}
+
+.short {
+    width: 220px;
+    margin-right: 25px;
+}
+
+.form-inputs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,494 @@
+{
+  "status": 200,
+  "data": {
+    "events": [
+      {
+        "idEvent": "1",
+        "team1": {
+          "idTeam": "1",
+          "name": "Nemiga",
+          "logoURL": "/images/team1.png"
+        },
+        "team2": {
+          "idTeam": "2",
+          "name": "Kaipi",
+          "logoURL": "/images/team2.png"
+        },
+        "idGame": "1",
+        "player1": {
+          "idPlayer": "1",
+          "name": "AlexT"
+        },
+        "player2": {
+          "idPlayer": "2",
+          "name": "John"
+        },
+        "name": "PROFESSIONAL LEAGUE SEASON 2",
+        "description": "description event PROFESSIONAL LEAGUE SEASON 2",
+        "dateTimeStart": "2019-11-17 21:00:00",
+        "isAuthomaticallyStart": false,
+        "dateStartBetting": "2019-10-17 21:00:00",
+        "dateStopBetting": "2019-11-16 21:00:00",
+        "favorite": "1",
+        "probabilityOfFavorite": "0.75",
+        "streamLink": "https://www.youtube.com/",
+        "betFrequency": "2200",
+        "MaxSingleBetOfTotal": "3000",
+        "isActive": true,
+        "winnerTeam": {
+          "idTeam": "",
+          "name": "",
+          "logoURL": ""
+        },
+        "winnerPlayer": {
+          "idPlayer": "",
+          "name": ""
+        },
+        "color": "4169E1",
+        "isFavourite": "",
+        "betMade": ""
+      },{
+        "idAdvertising": "1",
+        "idGame": "1",
+        "dateTimeStart": "2019-11-01 21:00:00",
+        "dateTimeFinish": "2019-11-30 21:00:00",
+        "imageURL": "/images/advertising1.png",
+        "isMain": true,
+        "isActive": true,
+        "link": "https://www.google.ru/"
+      },{
+        "idEvent": "2",
+        "team1": {
+          "idTeam": "3",
+          "name": "TBD",
+          "logoURL": "/images/team3.png"
+        },
+        "team2": {
+          "idTeam": "4",
+          "name": "TNC Pro Team",
+          "logoURL": "/images/team4.png"
+        },
+        "idGame": "1",
+        "player1": {
+          "idPlayer": "3",
+          "name": "MaxP"
+        },
+        "player2": {
+          "idPlayer": "4",
+          "name": "Nick"
+        },
+        "name": "H-CUP SEASON 12",
+        "description": "description event H-CUP SEASON 12",
+        "dateTimeStart": "2019-11-20 21:00:00",
+        "isAuthomaticallyStart": false,
+        "dateStartBetting": "2019-10-20 21:00:00",
+        "dateStopBetting": "2019-11-19 21:00:00",
+        "favorite": "1",
+        "probabilityOfFavorite": "0.65",
+        "streamLink": "https://www.youtube.com/",
+        "betFrequency": "2200",
+        "MaxSingleBetOfTotal": "3000",
+        "isActive": true,
+        "winnerTeam": {
+          "idTeam": "",
+          "name": "",
+          "logoURL": ""
+        },
+        "winnerPlayer": {
+          "idPlayer": "",
+          "name": ""
+        },
+        "color": "800000",
+        "isFavourite": "",
+        "betMade": ""
+      },{
+        "idEvent": "3",
+        "team1": {
+          "idTeam": "5",
+          "name": "Gambit",
+          "logoURL": "/images/team5.png"
+        },
+        "team2": {
+          "idTeam": "6",
+          "name": "EPG",
+          "logoURL": "/images/team6.png"
+        },
+        "idGame": "2",
+        "player1": {
+          "idPlayer": "5",
+          "name": "Bob"
+        },
+        "player2": {
+          "idPlayer": "6",
+          "name": "Sasab"
+        },
+        "name": "WEPLAY! DOTA 2 WINTER MADNESS",
+        "description": "description event WEPLAY! DOTA 2 WINTER MADNESS",
+        "dateTimeStart": "2019-11-21 21:00:00",
+        "isAuthomaticallyStart": false,
+        "dateStartBetting": "2019-10-21 21:00:00",
+        "dateStopBetting": "2019-11-20 21:00:00",
+        "favorite": "2",
+        "probabilityOfFavorite": "0.5",
+        "streamLink": "https://www.youtube.com/",
+        "betFrequency": "2200",
+        "MaxSingleBetOfTotal": "3000",
+        "isActive": true,
+        "winnerTeam": {
+          "idTeam": "",
+          "name": "",
+          "logoURL": ""
+        },
+        "winnerPlayer": {
+          "idPlayer": "",
+          "name": ""
+        },
+        "color": "800000",
+        "isFavourite": "",
+        "betMade": ""
+      },{
+        "idAdvertising": "2",
+        "idGame": "4",
+        "dateTimeStart": "2019-11-10 21:00:00",
+        "dateTimeFinish": "2019-11-30 21:00:00",
+        "imageURL": "/images/advertising2.png",
+        "isMain": true,
+        "isActive": true,
+        "link": "https://www.google.ru/"
+      },{
+        "idEvent": "4",
+        "team1": {
+          "idTeam": "1",
+          "name": "Nemiga",
+          "logoURL": "/images/team1.png"
+        },
+        "team2": {
+          "idTeam": "3",
+          "name": "TBD",
+          "logoURL": "/images/team3.png"
+        },
+        "idGame": "2",
+        "player1": {
+          "idPlayer": "7",
+          "name": "Desh"
+        },
+        "player2": {
+          "idPlayer": "8",
+          "name": "Tony"
+        },
+        "name": "2018 WCS GLOBAL FINALS",
+        "description": "description event 2018 WCS GLOBAL FINALS",
+        "dateTimeStart": "2019-11-30 21:00:00",
+        "isAuthomaticallyStart": false,
+        "dateStartBetting": "2019-10-30 21:00:00",
+        "dateStopBetting": "2019-11-29 21:00:00",
+        "favorite": "2",
+        "probabilityOfFavorite": "0.3",
+        "streamLink": "https://www.youtube.com/",
+        "betFrequency": "2200",
+        "MaxSingleBetOfTotal": "3000",
+        "isActive": true,
+        "winnerTeam": {
+          "idTeam": "",
+          "name": "",
+          "logoURL": ""
+        },
+        "winnerPlayer": {
+          "idPlayer": "",
+          "name": ""
+        },
+        "color": "800000",
+        "isFavourite": "",
+        "betMade": ""
+      },{
+        "idAdvertising": "3",
+        "idGame": "2",
+        "dateTimeStart": "2019-11-02 21:00:00",
+        "dateTimeFinish": "2019-12-31 21:00:00",
+        "imageURL": "/images/advertising3.png",
+        "isMain": true,
+        "isActive": true,
+        "link": "https://www.google.ru/"
+      },{
+        "idEvent": "5",
+        "team1": {
+          "idTeam": "2",
+          "name": "Kaipi",
+          "logoURL": "/images/team2.png"
+        },
+        "team2": {
+          "idTeam": "5",
+          "name": "Gambit",
+          "logoURL": "/images/team5.png"
+        },
+        "idGame": "3",
+        "player1": {
+          "idPlayer": "9",
+          "name": "Cid"
+        },
+        "player2": {
+          "idPlayer": "10",
+          "name": "Weemda"
+        },
+        "name": "LOOT.BET WINTER",
+        "description": "description event LOOT.BET WINTER",
+        "dateTimeStart": "2019-12-01 21:00:00",
+        "isAuthomaticallyStart": true,
+        "dateStartBetting": "2019-11-01 21:00:00",
+        "dateStopBetting": "2019-11-30 21:00:00",
+        "favorite": "1",
+        "probabilityOfFavorite": "1.3",
+        "streamLink": "https://www.youtube.com/",
+        "betFrequency": "2200",
+        "MaxSingleBetOfTotal": "3000",
+        "isActive": true,
+        "winnerTeam": {
+          "idTeam": "",
+          "name": "",
+          "logoURL": ""
+        },
+        "winnerPlayer": {
+          "idPlayer": "",
+          "name": ""
+        },
+        "color": "800000",
+        "isFavourite": "",
+        "betMade": ""
+      },{
+        "idEvent": "6",
+        "team1": {
+          "idTeam": "4",
+          "name": "TNC Pro Team",
+          "logoURL": "/images/team4.png"
+        },
+        "team2": {
+          "idTeam": "6",
+          "name": "EPG",
+          "logoURL": "/images/team6.png"
+        },
+        "idGame": "3",
+        "player1": {
+          "idPlayer": "4",
+          "name": "Nick"
+        },
+        "player2": {
+          "idPlayer": "6",
+          "name": "Sasab"
+        },
+        "name": "DOTA 2 WINTER MADNESS",
+        "description": "description event DOTA 2 WINTER MADNESS",
+        "dateTimeStart": "2019-12-10 21:00:00",
+        "isAuthomaticallyStart": true,
+        "dateStartBetting": "2019-11-10 21:00:00",
+        "dateStopBetting": "2019-11-09 21:00:00",
+        "favorite": "2",
+        "probabilityOfFavorite": "0.7",
+        "streamLink": "https://www.youtube.com/",
+        "betFrequency": "2200",
+        "MaxSingleBetOfTotal": "3000",
+        "isActive": true,
+        "winnerTeam": {
+          "idTeam": "",
+          "name": "",
+          "logoURL": ""
+        },
+        "winnerPlayer": {
+          "idPlayer": "",
+          "name": ""
+        },
+        "color": "800000",
+        "isFavourite": "",
+        "betMade": ""
+      },{
+        "idEvent": "7",
+        "team1": {
+          "idTeam": "1",
+          "name": "Nemiga",
+          "logoURL": "/images/team1.png"
+        },
+        "team2": {
+          "idTeam": "2",
+          "name": "Kaipi",
+          "logoURL": "/images/team2.png"
+        },
+        "idGame": "4",
+        "player1": {
+          "idPlayer": "1",
+          "name": "AlexT"
+        },
+        "player2": {
+          "idPlayer": "2",
+          "name": "John"
+        },
+        "name": "PROFESSIONAL LEAGUE",
+        "description": "description event PROFESSIONAL LEAGUE",
+        "dateTimeStart": "2019-07-17 21:00:00",
+        "isAuthomaticallyStart": true,
+        "dateStartBetting": "2019-06-17 21:00:00",
+        "dateStopBetting": "2019-07-16 21:00:00",
+        "favorite": "2",
+        "probabilityOfFavorite": "0.75",
+        "streamLink": "https://www.youtube.com/",
+        "betFrequency": "2200",
+        "MaxSingleBetOfTotal": "3000",
+        "isActive": true,
+        "winnerTeam": {
+          "idTeam": "",
+          "name": "",
+          "logoURL": ""
+        },
+        "winnerPlayer": {
+          "idPlayer": "",
+          "name": ""
+        },
+        "color": "4169E1",
+        "isFavourite": "",
+        "betMade": ""
+      },{
+        "idEvent": "8",
+        "team1": {
+          "idTeam": "3",
+          "name": "TBD",
+          "logoURL": "/images/team3.png"
+        },
+        "team2": {
+          "idTeam": "4",
+          "name": "TNC Pro Team",
+          "logoURL": "/images/team4.png"
+        },
+        "idGame": "3",
+        "player1": {
+          "idPlayer": "3",
+          "name": "MaxP"
+        },
+        "player2": {
+          "idPlayer": "4",
+          "name": "Nick"
+        },
+        "name": "H-CUP SEASON 12",
+        "description": "description event H-CUP SEASON 12",
+        "dateTimeStart": "2019-04-20 21:00:00",
+        "isAuthomaticallyStart": false,
+        "dateStartBetting": "2019-03-20 21:00:00",
+        "dateStopBetting": "2019-04-19 21:00:00",
+        "favorite": "1",
+        "probabilityOfFavorite": "0.65",
+        "streamLink": "https://www.youtube.com/",
+        "betFrequency": "2200",
+        "MaxSingleBetOfTotal": "3000",
+        "isActive": true,
+        "winnerTeam": {
+          "idTeam": "",
+          "name": "",
+          "logoURL": ""
+        },
+        "winnerPlayer": {
+          "idPlayer": "",
+          "name": ""
+        },
+        "color": "800000",
+        "isFavourite": "",
+        "betMade": ""
+      },{
+        "idEvent": "9",
+        "team1": {
+          "idTeam": "5",
+          "name": "Gambit",
+          "logoURL": "/images/team5.png"
+        },
+        "team2": {
+          "idTeam": "6",
+          "name": "EPG",
+          "logoURL": "/images/team6.png"
+        },
+        "idGame": "1",
+        "player1": {
+          "idPlayer": "5",
+          "name": "Bob"
+        },
+        "player2": {
+          "idPlayer": "6",
+          "name": "Sasab"
+        },
+        "name": "WEPLAY! DOTA MADNESS",
+        "description": "description event WEPLAY! DOTA MADNESS",
+        "dateTimeStart": "2019-09-21 21:00:00",
+        "isAuthomaticallyStart": false,
+        "dateStartBetting": "2019-08-21 21:00:00",
+        "dateStopBetting": "2019-09-20 21:00:00",
+        "favorite": "2",
+        "probabilityOfFavorite": "0.5",
+        "streamLink": "https://www.youtube.com/",
+        "betFrequency": "2200",
+        "MaxSingleBetOfTotal": "3000",
+        "isActive": true,
+        "winnerTeam": {
+          "idTeam": "",
+          "name": "",
+          "logoURL": ""
+        },
+        "winnerPlayer": {
+          "idPlayer": "",
+          "name": ""
+        },
+        "color": "800000",
+        "isFavourite": "",
+        "betMade": ""
+      },{
+        "idAdvertising": "4",
+        "idGame": "3",
+        "dateTimeStart": "2019-11-13 21:00:00",
+        "dateTimeFinish": "2019-12-20 21:00:00",
+        "imageURL": "/images/advertising4.png",
+        "isMain": true,
+        "isActive": true,
+        "link": "https://www.google.ru/"
+      },{
+        "idEvent": "10",
+        "team1": {
+          "idTeam": "1",
+          "name": "Nemiga",
+          "logoURL": "/images/team1.png"
+        },
+        "team2": {
+          "idTeam": "3",
+          "name": "TBD",
+          "logoURL": "/images/team3.png"
+        },
+        "idGame": "2",
+        "player1": {
+          "idPlayer": "7",
+          "name": "Desh"
+        },
+        "player2": {
+          "idPlayer": "8",
+          "name": "Tony"
+        },
+        "name": "WCS GLOBAL FINALS",
+        "description": "description event WCS GLOBAL FINALS",
+        "dateTimeStart": "2019-11-30 21:00:00",
+        "isAuthomaticallyStart": true,
+        "dateStartBetting": "2019-10-30 21:00:00",
+        "dateStopBetting": "2019-11-29 21:00:00",
+        "favorite": "2",
+        "probabilityOfFavorite": "0.3",
+        "streamLink": "https://www.youtube.com/",
+        "betFrequency": "2200",
+        "MaxSingleBetOfTotal": "3000",
+        "isActive": true,
+        "winnerTeam": {
+          "idTeam": "",
+          "name": "",
+          "logoURL": ""
+        },
+        "winnerPlayer": {
+          "idPlayer": "",
+          "name": ""
+        },
+        "color": "800000",
+        "isFavourite": "",
+        "betMade": ""
+      }
+    ]
+  }
+}

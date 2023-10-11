@@ -1,0 +1,28 @@
+<div class="players">
+  <div class="caption-panel">
+    <h1 class="page-header">Players</h1>
+    <div class="add_button">
+      <button
+        mat-raised-button
+        color="secondary"
+        class="btn btn-sm btn-default"
+        (click)="addPlayer()"
+        type="button"
+      >
+        Add player
+      </button>
+    </div>
+  </div>
+  <div class="head-table">
+    <p class="td-1">
+      <input class="form-control" name="username" #search placeholder="Search" [(ngModel)]="searchString"/>
+    </p>
+    <span>TEAM</span>
+    <span>STATUS</span>
+  </div>
+  <div class="table">
+    <div class="player-item" *ngFor="let player of players;">
+      <app-player-panel [data]="player"></app-player-panel>
+    </div>
+  </div>
+</div>

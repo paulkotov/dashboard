@@ -1,0 +1,14 @@
+<div class="authorization">
+    <div class="authorization-block">
+        <div class="authorization-block-header">
+            <h2 class="authorization-block-header__title">Авторизация</h2>
+        </div>
+        <div class="authorization-block-body">
+            <form class="authorization-block-body-form">
+                <input class="authorization-block-body__login d-block" type="text" name="login" placeholder="Логин" [(ngModel)]="loginUserData.login">
+                <input class="authorization-block-body__password d-block" type="password" name="password" placeholder="Пароль" [(ngModel)]="loginUserData.password">
+                <button class="authorization-block-body__btn d-block" [ngClass]="{'disabled' : areFieldsEmpty ? true : false }" (click)="loginUser()" [disabled]="areFieldsEmpty">Войти</button>
+            </form>
+        </div>
+    </div>
+</div>

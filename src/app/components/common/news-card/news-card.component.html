@@ -1,0 +1,12 @@
+<mat-card>
+    
+    <img md-card-image [src]="news.imageURL">
+
+    <mat-card-actions fxLayout="row" fxLayoutAlign="end center">
+        <div (click)="openDialog()">
+            {{news.announcement}}
+        </div>
+        <mat-chip>#{{news.hashtag}}</mat-chip>
+    </mat-card-actions>
+      
+</mat-card>

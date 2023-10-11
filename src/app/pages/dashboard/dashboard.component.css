@@ -1,0 +1,9 @@
+.caption-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.page-header {
+    color: #FFF;
+}

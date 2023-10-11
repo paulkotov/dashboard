@@ -1,0 +1,13 @@
+<div class="row row--cont" [ngClass]="{'active': data.isActive}" (click)="openForm()">
+    <div class="td-1 logo-name">
+        <div class="logo-container">
+          <img class="user-logo" src="" alt="user logo">
+        </div>
+        <p class="user-name">{{data.name}}</p>
+    </div>
+    <div class="td-2 date-container">
+        <span class="table__date">{{data.date}}</span>
+        <span class="time">{{data.time}}</span>
+    </div>
+    <p class="td-3 status">{{data.isActive}}</p>
+</div>

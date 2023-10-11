@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-sm-12">
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form class="form-horizontal">
+
+          <div class="form-group">
+            <div class="label">Name</div>
+            <input name="username" #username placeholder="Username" [(ngModel)]="player.name"/>
+          </div>
+
+          <div class="form-group form-inputs">
+            <div class="form-group">
+              <div class="label">Team</div>
+              <select name="team" #team class="form-control short" placeholder="Team" [value]="player.team" (change)="setTeam($event)">
+                <option class="" [value]="team" *ngFor="let team of teams">{{team}}</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="form-group form-inputs">
+            <input name="isactive" #isactive class="form-control checkbox" type="checkbox" [checked]="getStatus" (change)="setStatus($event)"/>
+            <div class="label">Is Active</div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-offset-2 col-lg-10">
+              <button mat-raised-button color="primary" class="btn btn-sm btn-default" (click)="saveUser()" type="button">Save</button>
+              <button mat-button color="accent" class="btn btn-sm btn-default button-cancel" (click)="cancel()" type="button">Cancel</button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

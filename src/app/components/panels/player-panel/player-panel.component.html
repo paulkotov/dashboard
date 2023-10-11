@@ -1,0 +1,9 @@
+<div class="row row--cont" [ngClass]="{'non-active': data.status === 'not active' ? true : false}" (click)="openForm(data.id)">
+  <div class="date-container">
+      <span class="table__date">{{data.name}}</span>
+  </div>
+  <div class="date-container">
+      <span class="table__date">{{data.team}}</span>
+  </div>
+  <p class="td-3 status">{{data.status}}</p>
+</div>

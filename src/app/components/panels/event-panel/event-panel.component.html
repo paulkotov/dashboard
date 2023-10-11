@@ -1,0 +1,33 @@
+<div *ngIf="data.idEvent; then thenBlock else elseBlock"></div>
+<ng-template #thenBlock>
+    <div
+        #thenBlock
+        class="row row--cont"
+        [ngClass]="{'non-active': data.status === 'not active' ? true : false}"
+        (click)="openForm()"
+    >
+        <div class="td-1">
+            <span class="table__date">{{data.name}}</span>
+        </div>
+        <div class="td-2 date-container">
+            <span class="table__date">{{data.team1.name}}</span>
+        </div>
+        <div class="td-2 date-container">
+            <span class="table__date">{{data.team2.name}}</span>
+        </div>
+        <div class="td-2 date-container">
+            <span class="table__date">{{data.idGame}}</span>
+        </div>
+        <div class="td-2 date-container">
+            <span class="table__date">{{data.date}} {{data.time}}</span>
+        </div>
+        <p class="td-3 status">{{data.isActive ? 'active' : 'non active'}}</p>
+    </div>
+</ng-template>
+<ng-template #elseBlock>
+    <div class="row row--cont">
+        <div class="td-2 date-container">
+            <span class="table__date">{{data.idAdvertising}}</span>
+        </div>
+    </div>
+</ng-template>

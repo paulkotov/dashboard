@@ -1,0 +1,71 @@
+<section class="user-section">
+    <div class="user-info">
+        <img class="user-img" src="assets/img/man-photo.png" alt="Photo" />
+        <p class="user-greet">Welcome,<br>
+            <span class="user-name">{{data.name}}</span>
+        </p>
+        <!-- <button class="user-button">Button</button> -->
+    </div>
+    <!--
+    <ul class="user-checkboxs">
+        <li class="checkbox-head">
+            <h3 class="checkbox-title">Main</h3>
+        </li>
+        <li class="user-checkbox">
+            <input type="checkbox" style="display:none" value="" name="" id="checkbox-1">
+            <label for="checkbox-1" class="user-chekbox-beuty"><span class="check-status"></span>Text</label>
+        </li>
+        <li class="user-checkbox">
+            <input type="checkbox" style="display:none" value="" name="" id="checkbox-2">
+            <label for="checkbox-2" class="user-chekbox-beuty"><span class="check-status"></span>Text</label>
+        </li>
+        <li class="user-checkbox">
+            <input type="checkbox" style="display:none" value="" name="" id="checkbox-3">
+            <label for="checkbox-3" class="user-chekbox-beuty"><span class="check-status"></span>Text</label>
+        </li>
+        <li class="user-checkbox">
+            <input type="checkbox" style="display:none" value="" name="" id="checkbox-4">
+            <label for="checkbox-4" class="user-chekbox-beuty"><span class="check-status"></span>Text</label>
+        </li>
+    </ul>
+    <ul class="user-checkboxs">
+        <li class="checkbox-head">
+            <h3 class="checkbox-title">Main</h3>
+        </li>
+        <li class="user-checkbox">
+            <input type="checkbox" style="display:none" value="" name="" id="checkbox-1">
+            <label for="checkbox-1" class="user-chekbox-beuty"><span class="check-status"></span>Text</label>
+        </li>
+        <li class="user-checkbox">
+            <input type="checkbox" style="display:none" value="" name="" id="checkbox-2">
+            <label for="checkbox-2" class="user-chekbox-beuty"><span class="check-status"></span>Text</label>
+        </li>
+        <li class="user-checkbox">
+            <input type="checkbox" style="display:none" value="" name="" id="checkbox-3">
+            <label for="checkbox-3" class="user-chekbox-beuty"><span class="check-status"></span>Text</label>
+        </li>
+        <li class="user-checkbox">
+            <input type="checkbox" style="display:none" value="" name="" id="checkbox-4">
+            <label for="checkbox-4" class="user-chekbox-beuty"><span class="check-status"></span>Text</label>
+        </li>
+    </ul>
+    -->
+    <section class="user-card-info">
+        <div class="user-container">
+            <p class="username-head">Username:</p>
+            <p class="username-data username-name">{{data.userName}}</p>
+        </div>
+        <div class="user-container">
+            <p class="username-head">Registration datetime:</p>
+            <p class="username-data username-datatime"><span>{{data.date}}</span><span>12:00:27</span></p>
+        </div>
+        <div class="user-container">
+            <p class="username-head">Selected game:</p>
+            <p class="username-data username-game">{{data.selectedGame}}</p>
+        </div>
+        <div class="user-container">
+            <p class="username-head">Status:</p>
+            <mat-slide-toggle [checked]="data.status"></mat-slide-toggle>
+        </div>
+    </section>
+</section>

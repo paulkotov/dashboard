@@ -1,0 +1,12 @@
+{
+  "status": 200,
+  "data": {
+    "players": [{
+      "idTeam": "string",
+      "name": "string"
+    },{
+      "idTeam": "string",
+      "name": "string"
+    }]
+  }
+}

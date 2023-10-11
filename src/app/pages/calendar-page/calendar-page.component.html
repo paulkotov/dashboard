@@ -1,0 +1,123 @@
+<div class="calendar">
+    <div class="game-section">
+        <ul class="games__list">
+            <li class="game">
+                <img class="game__img" src="assets/img/game-logo-1.png" alt="Logo">
+            </li>
+            <li class="game">
+                <img class="game__img" src="assets/img/game-logo-2.png" alt="Logo">
+            </li>
+            <li class="game">
+                <img class="game__img" src="assets/img/game-logo-3.png" alt="Logo">
+            </li>
+            <li class="game">
+                <img class="game__img game__img--long" src="assets/img/game-logo-4.png" alt="Logo">
+            </li>
+            <li class="game">
+                <img class="game__img game__img--long" src="assets/img/game-logo-5.png" alt="Logo">
+            </li>
+            <li class="game">
+                <img class="game__img" src="assets/img/game-logo-6.png" alt="Logo">
+            </li>
+            <li class="game">
+                <img class="game__img game__img-long" src="assets/img/game-logo-7.png" alt="Logo">
+            </li>
+        </ul>
+    </div>
+    <div class="calendar_section">
+        <div class="info-panel">
+            <div class="small-calendar-block">
+                <button
+                    mat-raised-button
+                    color="secondary"
+                    class="btn btn-sm btn-default"
+                    (click)="addEvent()"
+                    type="button"
+                >
+                    Add new event
+                </button>
+                <div class="data-change">
+                    <div class="date date--month">
+                        <button class="date__button date__button--prev"><span class="arrow"></span></button>
+                        <p class="date__text date__text--month">Apr</p>
+                        <button class="date__button date__button--next"><span class="arrow"></span></button>
+                    </div>
+                    <div class="date date--year">
+                        <button class="date__button date__button--prev"><span class="arrow"></span></button>
+                        <p class="date__text date__text--year">2019</p>
+                        <button class="date__button date__button--next"><span class="arrow"></span></button>
+                    </div>
+                </div>
+    
+                <table class="small-dates-table">
+                    <tbody><tr class="table-head">
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                            <th>Su</th>
+                        </tr>
+                        <tr>
+                            <td class="has-eve">1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td class="has-eve">16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="categories">
+                <h3 class="categories__title">Category events</h3>
+                <ul class="categories__list">
+                    <li class="categories__item"><span class="square square__yellow"></span>Battle</li>
+                    <li class="categories__item"><span class="square square__green"></span>p2p</li>
+                    <li class="categories__item categories__item--active"><span class="square square_active"></span>Tournament</li>
+                    <li class="categories__item"><span class="square square__pink"></span>Private</li>
+                    <li class="categories__item"><span class="square square__aqua"></span>Championship</li>
+                </ul>
+            </div>
+        </div>
+        <app-calendar></app-calendar>
+    </div>
+</div>

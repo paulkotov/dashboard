@@ -1,0 +1,27 @@
+<div class="events-list">
+    <div class="caption-panel">
+        <h1 class="page-header">Users</h1>
+        <div class="add-button">
+            <button
+              mat-raised-button
+              color="secondary"
+              class="btn btn-sm btn-default"
+              (click)="addUser()"
+              type="button"
+            >
+            Add user
+            </button>
+        </div>
+    </div>
+    <div class="head-table">
+        <p class="td-1">Username</p>
+        <p class="td-2">Last Login</p>
+        <p class="td-3">Status</p>
+    </div>
+    <div class="table">
+      <div class="user-item" *ngFor="let user of users;">
+        <app-user-panel [data]="user"></app-user-panel>
+      </div>
+    </div>
+
+</div>

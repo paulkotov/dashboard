@@ -1,0 +1,13 @@
+<div class="app-container" *ngIf="isLoged; else appBlock">
+    <app-navigation-menu></app-navigation-menu>
+    <div class="content">
+        <app-profile></app-profile>
+        <div class="main">
+            <router-outlet></router-outlet>
+        </div>
+        <app-log-panel></app-log-panel>
+    </div>
+</div>
+<ng-template #appBlock>
+    <app-login></app-login>
+</ng-template>

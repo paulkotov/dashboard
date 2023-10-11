@@ -1,0 +1,12 @@
+.news_dialog {
+    background-color: #000;
+    color: #FFF;
+    margin: -24px;
+    padding: 10px;
+}
+
+.news_dialog-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}

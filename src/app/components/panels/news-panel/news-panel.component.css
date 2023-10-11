@@ -1,0 +1,40 @@
+.row.non-active {
+    color: #5C5C5C;
+}
+
+.row--cont {
+    background: #1A2029;
+    border: 1px solid #12171D;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.row {
+    display: flex;
+    padding: 10px 23px;
+    margin: 0;
+    color: #FFF;
+    flex-wrap: wrap;
+    cursor: pointer;
+    align-items: center;
+}
+
+.td-1 {
+    width: 57%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.date-container {
+    display: flex;
+    width: 10%;
+}
+
+.table__date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}

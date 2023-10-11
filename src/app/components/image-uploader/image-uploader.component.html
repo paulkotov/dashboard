@@ -1,0 +1,22 @@
+<div class="form-inputs">
+  <div *ngIf="selectedFile" class="img-preview-container">
+      <div class="img-preview{{selectedFile.status === 'fail' ? '-error' : ''}}"
+        [ngStyle]="{'background-image': 'url('+ selectedFile.src + ')'}">
+      </div>
+  <!--
+      <div *ngIf="selectedFile.pending" class="img-loading-overlay">
+        <div class="img-spinning-circle"></div>
+      </div> -->
+  </div>
+  
+  <div class="form-group">
+    <label class="upload">
+      <span>Upload Image</span>
+      <input #imageInput
+              class="image"
+              type="file"
+              accept="image/*"
+              (change)="uploadImage(imageInput)">
+    </label>
+  </div>
+</div>

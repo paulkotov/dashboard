@@ -1,0 +1,60 @@
+{
+  "status": 200,
+  "data": {
+    "news": [{
+      "idNews": "1",
+      "idGame": "1",
+      "link": "Skadoodle-to-take-a-break-from-competitive-Counter-Strike",
+      "title": "Skadoodle to take a break from competitive Counter-Strike",
+      "description": "Tyler \"Skadoodle\" Latham is one of the most seasoned North American CS:GO pros, with a career spanning nearly four years in Cloud9 alone.",
+      "dateTimeCreate": "2019-11-12 21:00:00",
+      "imageURL": "/images/news1.png",
+      "isActive": true
+    },{
+        "idNews": "2",
+        "idGame": "2",
+        "link": "2018-World-Championship-Playoff-brackets-drawn",
+        "title": "2018 World Championship Playoff brackets drawn",
+        "description": "Following the conclusion of Group D's matches, Riot Games oversaw the drawing of the 2018 League of Legends World Championship's brackets for the playoff stage.",
+        "dateTimeCreate": "2019-11-13 21:00:00",
+        "imageURL": "/images/news2.png",
+        "isActive": true
+    },{
+        "idNews": "3",
+        "idGame": "3",
+        "link": "Gambit-2019-open-to-transfer-negotiations-for-AdreN",
+        "title": "Gambit 2019 open to transfer negotiations for AdreN",
+        "description": "Gambit Esports have been the subject of disbandment rumours in recent times, particularly after a poor showing at the FACEIT Major - London 2018",
+        "dateTimeCreate": "2019-11-14 21:00:00",
+        "imageURL": "/images/news3.png",
+        "isActive": true
+    },{
+        "idNews": "4",
+        "idGame": "4",
+        "link": "G2-first-to-receive-direct-invite-to-$100,000-PLG-Grand-Slam",
+        "title": "G2 first to receive direct invite to $100,000 PLG Grand Slam",
+        "description": "G2 Esports were the first CS:GO roster to confirm participation at the LAN finals of the PLG Grand Slam, which is taking place on Dec.",
+        "dateTimeCreate": "2019-11-15 21:00:00",
+        "imageURL": "/images/news4.png",
+        "isActive": true
+    },{
+        "idNews": "5",
+        "idGame": "5",
+        "link": "Zikz-joins-Team-SoloMid-as-head-coach",
+        "title": "Zikz joins Team SoloMid as head coach",
+        "description": "Zikz's achievements as CLG's head coach and his work garnered respect among North American LCS peers and commentators, a matter that caused the majority to react with surprise",
+        "dateTimeCreate": "2019-11-16 21:00:00",
+        "imageURL": "/images/news5.png",
+        "isActive": true
+    },{
+        "idNews": "6",
+        "idGame": "6",
+        "link": "Fnatic-Broxah-after-outplaying-Ning",
+        "title": "Fnatic Broxah after outplaying Ning, beats Invictus Gaming",
+        "description": "I am really really happy and excited to not only go to quarterfinals but also to go as first seed.",
+        "dateTimeCreate": "2019-11-17 21:00:00",
+        "imageURL": "/images/news6.png",
+        "isActive": true
+    }]
+  }
+}
